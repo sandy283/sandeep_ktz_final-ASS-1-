@@ -1,0 +1,14 @@
+ Volume in drive E is New Volume
+ Volume Serial Number is 6CCC-832B
+
+ Directory of E:\ktj-web-dev
+
+04-07-2022  19:40    <DIR>          .
+04-07-2022  19:40    <DIR>          ..
+30-06-2022  12:34    <DIR>          css
+03-07-2022  20:40    <DIR>          img
+04-07-2022  19:06            38,309 index.html
+04-07-2022  19:40                72 test1.txt
+04-07-2022  18:50            16,119 Untitled.svg
+               3 File(s)         54,500 bytes
+               4 Dir(s)  144,199,098,368 bytes free
