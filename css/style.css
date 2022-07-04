@@ -4,27 +4,18 @@
  html {
   scroll-behavior: smooth;
 }
-html {
- scroll-behavior: smooth;
-}
-html {
- scroll-behavior: smooth;
-}
-html {
- scroll-behavior: smooth;
-}
-html {
- scroll-behavior: smooth;
-}
-html {
- scroll-behavior: smooth;
-}
 body{
 font-family:"Lato", sens-serif;
 font-weight:400;
 font-size:16px;
 line-height:1.7;
 color:#404040;
+}
+html,body{width:100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
 }
 /*main{background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);}*//
 
@@ -504,6 +495,7 @@ background-image: linear-gradient(to left,rgba(102, 102, 153,0.8),rgba(179, 179,
 z-index: 10;
 visibility: hidden;
 transition: all .3s;
+opacity: 0;
 }
 .popup:target{visibility: visible;
 opacity: 1;}
@@ -561,11 +553,3 @@ border: 2px blue solid;
 color: white;}
 /*svg animation*/
 .svg{text-align: center;}
-
-#legf{
-  animation: legb 3s ease;
-}
-@@keyframes legb {
-  from{transform:rotateY(0deg);}
-  to{transform:rotateY(360deg);}
-}
